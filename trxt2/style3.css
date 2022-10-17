@@ -172,13 +172,19 @@ section .card .image img{
   opacity: 1;
   color: orange;
 }
+
+body{ background-color: black; color: white; font-family: 'Josefin Sans', sans-serif; max-width: 1200px; margin: 0 auto; padding: 15px;}
+
+header{ display: flex; flex-direction: row; justify-content: space-between; align-items: center;} #title{ flex-direction: column; line-height: 10px;} li{ display: inline-block; margin: 20px;} h1{ font-weight: 200;}
+
 @media screen and (max-width: 760px){
-    ul{ text-align: center;
-    }
-  }
-  @media (max-width:767px) {
-    
-    header{
-    flex-direction: column;
-    }
-  }
+header{
+  flex-direction: column;
+   }
+   ul{ text-align: center;
+   }
+   }
+   footer{
+    text-align: center;
+    color: white ;
+    background-color: black; }
